@@ -132,3 +132,48 @@ container{
     display: none;
   }
 }
+/* Hero Section */
+
+#hero{
+  position: absolute;
+  width: 1158.61px;
+  height: 575px;
+  left: 141px;
+  top: 100px;
+}
+.banner{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50;
+  padding: 0px;
+}
+.hero-text{
+  font-weight: 700;
+  font-size: 56px;
+  text-align: left;
+}
+.paragraph{
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+}
+.banner-button{
+  position: static;
+  width: 197px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+
